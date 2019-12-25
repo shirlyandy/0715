@@ -64,7 +64,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void delUser(UserInfo userInfo) {
-        // 根据id 删除数据
+         // 根据id 删除数据
         // delete from userInfo  where id = ?
         // userInfoMapper.deleteByPrimaryKey(userInfo);
 //        userInfoMapper.deleteByExample();
